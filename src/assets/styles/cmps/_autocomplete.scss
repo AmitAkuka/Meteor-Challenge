@@ -1,0 +1,44 @@
+.auto-complete-main-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  & > input {
+    outline: none;
+    height: 60px;
+    width: 350px;
+    font-size: 1.2rem;
+    padding: 0px 10px;
+    color: gray;
+    border: 2px solid grey;
+    border-radius: 5px;
+  }
+  & > .options-list-main-container {
+    position: absolute;
+    width: 100%;
+    margin-top: 60px;
+    max-height: 488px;
+    overflow: auto;
+    & > .options-container {
+      display: flex;
+      flex-direction: column;
+      & > label {
+        color: black;
+        background-color: white;
+        padding: 5px 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        &:hover {
+          background-color: lightgray;
+        }
+        &:first-of-type {
+          border-top-right-radius: 5px;
+          border-top-left-radius: 5px;
+        }
+        &:last-of-type {
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+      }
+    }
+  }
+}

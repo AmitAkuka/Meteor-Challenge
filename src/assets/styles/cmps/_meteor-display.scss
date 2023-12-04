@@ -1,0 +1,17 @@
+.meteor-display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  & > input {
+    outline: none;
+    height: 40px;
+    width: 320px;
+    font-size: 1rem;
+    padding: 0px 10px;
+    color: gray;
+    border: 2px solid grey;
+    border-radius: 5px;
+  }
+}
