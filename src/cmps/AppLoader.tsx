@@ -1,4 +1,4 @@
-import loaderImg from "../assets/img/meteor.gif";
+import loaderImg from "../assets/img/meteor2.gif";
 
 export const AppLoader = () => {
   return (
