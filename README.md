@@ -10,7 +10,7 @@ Deployed app link: https://meteor-challenge.netlify.app/
 
 ## About
 
-Project was build with React, TypeScript.
+Project was built with React, TypeScript.
 
 ## Getting Started
 
